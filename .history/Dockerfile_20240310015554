@@ -12,9 +12,9 @@ FROM base AS binaries
 RUN apt install -y golang-go git
 
 # -- build and install glow md parser --
-RUN git clone https://github.com/charmbracelet/glow
+RUN git clone https://github.com/chrislusf/glow
 RUN mkdir -p /home/go/bin
-#RUN cd glow && env GOBIN=/home/go/bin/ go install
+RUN cd bat && env GOBIN=/home/go/bin/ go install
 
 # -- build challeges --
 
