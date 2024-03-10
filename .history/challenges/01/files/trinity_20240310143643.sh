@@ -39,7 +39,7 @@ done
 if [ $correct_answers -ge 10 ]; then
     # Create the .flag.txt file with "{{flag}}" content
     echo "{{flag}}" > ./.realworld/c/.c/.flag.txt
-    echo "Flag file created successfully. Find em in c world!"
+    echo "Flag file created successfully. Find em! {{flag}}"
 else
     echo "You did not answer at least 15 questions correctly. No flag file created."
 fi
