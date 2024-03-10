@@ -1,0 +1,16 @@
+ls
+mkdir my_directory
+cd my_directory
+touch my_file
+cat my_file
+ls
+echo "The Architect's challenges require Neo to think critically and apply his knowledge effectively." > my_file
+ls -la
+cat my_file
+rm my_file
+ls
+cd ~
+echo The current date is $(date)
+echo "Nice try! but this is not the flag :("
+echo -e "Good job!\nYou nearly found the flag Neo!\nBe sure to browse the history file and search about other commands you encounter here and don't know.\nThe "
+echo "This is not the flag"
