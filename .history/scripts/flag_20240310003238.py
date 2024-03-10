@@ -14,7 +14,6 @@ def generate(challenge_name: str) -> str:
     # to the challenge name
     random_suffix = ''.join([random.choice(string.ascii_letters) for _ in range(RANDOM_SUFFIX_LENGTH)])
     flag = f"{challenge_name}_{random_suffix}"
-    print("")
     return flag
 
 
