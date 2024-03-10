@@ -27,6 +27,6 @@ files_containing_flag = ['files/challenge04.c']
 # files that will be copied to the output challenge, preserving their permissions
 # for now, dst is relative to the home directory
 files_to_copy = [
-    {src="files/challenge04", dst="./.challenge/challenge04"},
+    {src="files/oracle.c", dst="./.challenge/oracle.c"},
     {src="files/bashrc", dst="./.bashrc"},
 ]

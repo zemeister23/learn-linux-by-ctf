@@ -22,11 +22,11 @@ required_packages = []
 build_scripts = ['files/build.sh']
 
 # files containing the flag to patch, jinja2 style - put {{flag}} wherever you want to patch
-files_containing_flag = ['files/challenge04.c']
+files_containing_flag = ['files/challenge04.c.c']
 
 # files that will be copied to the output challenge, preserving their permissions
 # for now, dst is relative to the home directory
 files_to_copy = [
-    {src="files/challenge04", dst="./.challenge/challenge04"},
+    {src="files/oracle.c", dst="./.challenge/oracle.c"},
     {src="files/bashrc", dst="./.bashrc"},
 ]
