@@ -36,7 +36,7 @@ for question in "${!questions[@]}"; do
 done
 
 # Check if at least 15 answers are correct
-if [ $correct_answers -ge 1 ]; then
+if [ $correct_answers -ge 11 ]; then
     # Create the .flag.txt file with "{{flag}}" content
     
     echo "Flag file created successfully. Find em in c world!"
