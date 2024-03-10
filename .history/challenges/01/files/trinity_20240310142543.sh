@@ -9,7 +9,7 @@ declare -A questions=(
     ["What command is used to list files in a directory?"]="ls"
     ["How do you display the contents of a file in the command line?"]="cat"
     ["What are manuals in Linux?"]="documentation"
-    ["How do you use the 'man' command to get help for a command_example?"]="man command_example"
+    ["How do you use the 'man' command to get help for a command_example?"]="man command_name"
     ["What does '-h' option typically do in Linux commands?"]="help"
     ["What does FHS stand for in the context of Linux filesystem <few words>"]="filesystem hierarchy standard"
     ["How do you display system information using variables in Linux?"]="echo"
@@ -39,7 +39,7 @@ done
 if [ $correct_answers -ge 10 ]; then
     # Create the .flag.txt file with "{{flag}}" content
     echo "{{flag}}" > ./.realworld/c/.c/.flag.txt
-    echo "Flag file created successfully. Find em! {{flag}}"
+    echo "Flag file created successfully. Find em!"
 else
     echo "You did not answer at least 15 questions correctly. No flag file created."
 fi
