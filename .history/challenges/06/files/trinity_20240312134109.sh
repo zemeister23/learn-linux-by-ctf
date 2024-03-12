@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Define an associative array to store questions and their corresponding correct answers
+# 
+
 echo "Im sorry Neo, but you have to answer some questions to prove your knowledge. Are you ready?"
 
 declare -A questions=(
@@ -38,9 +39,7 @@ for question in "${!questions[@]}"; do
 done
 
 # Check if at least 15 answers are correct
-if [ $correct_answers -ge 15 ]; then
-    # Create the .flag.txt file with "{{flag}}" content
-    
+if [ $correct_answers -ge 15 ]; then    
     echo "Neo its done. Find the flag in e world!"
 else
     echo "You did not answer at least 15 questions correctly. No flag file created."
