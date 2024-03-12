@@ -3,4 +3,4 @@ challenge01: challenge01.c
 	strip $@ 
 
 clean:
-	rm challenge01
+	rm challenge07
