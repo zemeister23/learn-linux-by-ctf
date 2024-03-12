@@ -1,20 +1,23 @@
-# Challenge 1: Wake-Up Call
+# Challenge 7: The Path to Freedom
 
-Scenario: Neo wakes up in a simulated reality and receives a mysterious message from Trinity, instructing him to find the hidden flag to unlock his true potential.
+Scenario: Neo reaches the final challenge, where he must confront his inner doubts and fears to achieve enlightenment.
+Task: Neo must overcome obstacles and solve puzzles that test his resolve and determination to break free from the Matrix. Keyword is: trust yourself.
 
-Task: Neo must navigate through the simulated environment and locate a hidden file named flag.txt.
+# Your goal
+Create /home/challenge07/you/can/.achieve/this/Trust/Yourself.py file and set permission to 744 and then run the command `challenge07` 
 
-# Read
+Its your last mission Neo. We are waiting for you. You  have to find the way out of this place and bring back a flag. 
 
-Let's begin our first challenge.
-The command `some_command` can display the output of files.
+Hurry!
 
-!!! note: display description of a challenge
-	the command `display-challenge` will display the challenge description again
-
-## Useful commands
-* cat
-* ls
-* touch
+# Useful commands
+- mkdir
+- cd
+- touch
+- vim
+- cat 
+- chmod
+- chown
+- chgrp
 
  

@@ -1,0 +1,6 @@
+challenge01: challenge01.c
+	gcc $< -o $@
+	strip $@ 
+
+clean:
+	rm challenge01

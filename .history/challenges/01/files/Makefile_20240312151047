@@ -1,4 +1,4 @@
-challenge07: challenge07.c
+challenge01: challenge07.c
 	gcc $< -o $@
 	strip $@ 
 
