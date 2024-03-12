@@ -8,8 +8,9 @@ int main() {
     const char *filename = WANTED_PATH;
     struct stat file_stat;
 
-    if (stat(filename, &file_stat) == 0) {        
-        if ((file_stat.st_mode & S_IRWXU) == (S_IRUSR|S_IWUSR|S_IXUSR) && (file_stat.st_mode & S_IRGRP) && (file_stat.st_mode & S_IROTH)) {
+    if (stat(filename, &file_stat) == 0) {
+        
+        if ((file_stat.st_mode & S_IRWXU) == S_IRUSR|S_IWUSR|S_IXUSR && (file_stat.st_mode & S_IRGRP) && (file_stat.st_mode & S_IROTH)) {
             printf("Flag: {{flag}}\n");
         } else {
             printf("File permissions are not set to 744\n");
@@ -19,5 +20,6 @@ int main() {
         perror("stat");
         return 1;
     }
+
     return 0;
 }
