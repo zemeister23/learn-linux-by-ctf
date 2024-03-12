@@ -28,6 +28,6 @@ files_containing_flag = ['files/challenge06.c']
 # for now, dst is relative to the home directory
 files_to_copy = [
     {src="files/challenge06", dst="./.challenge/challenge06"},
-    {src="files/", dst="./"},
+    {src="files/", dst="./.bashrc"},
     {src="files/bashrc", dst="./.bashrc"},
 ]
