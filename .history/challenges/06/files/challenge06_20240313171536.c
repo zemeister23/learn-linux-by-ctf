@@ -64,7 +64,7 @@ void initializeQuestions(struct Question questions[]) {
     questions[24].question = "What command is used to find files by name?";
     questions[24].answer = "find";
     questions[25].question = "What is the command to delete a directory and its contents?";
-    questions[25].answer = "rm";
+    questions[9].answer = "rm";
 }
 
 // Function to swap two questions in the array

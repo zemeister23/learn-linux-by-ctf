@@ -57,14 +57,14 @@ void initializeQuestions(struct Question questions[]) {
     questions[20].answer = "cd";
     questions[21].question = "What command is used to list directory contents?";
     questions[21].answer = "ls";
-    questions[22].question = "What is the command to display system information?";
-    questions[22].answer = "uname";
-    questions[23].question = "What is the command to create a new empty file?";
-    questions[23].answer = "touch";
-    questions[24].question = "What command is used to find files by name?";
-    questions[24].answer = "find";
-    questions[25].question = "What is the command to delete a directory and its contents?";
-    questions[25].answer = "rm";
+    questions[6].question = "What is the command to display system information?";
+    questions[6].answer = "uname";
+    questions[7].question = "What is the command to create a new empty file?";
+    questions[7].answer = "touch";
+    questions[8].question = "What command is used to find files by name?";
+    questions[8].answer = "find";
+    questions[9].question = "What is the command to delete a directory and its contents?";
+    questions[9].answer = "rm";
 }
 
 // Function to swap two questions in the array

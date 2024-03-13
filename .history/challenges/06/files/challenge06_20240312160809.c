@@ -45,26 +45,6 @@ void initializeQuestions(struct Question questions[]) {
     questions[14].answer = "find";
     questions[15].question = "How do you redirect output from a command to a file in Linux?";
     questions[15].answer = ">";
-    questions[16].question = "What command is used to copy files in Linux?";
-    questions[16].answer = "cp";
-    questions[17].question = "What is the default shell in most Linux distributions?";
-    questions[17].answer = "bash";
-    questions[18].question = "What does GUI stand for in the context of computing?";
-    questions[18].answer = "graphical";
-    questions[19].question = "What is the command to display the manual page of a command?";
-    questions[19].answer = "man";
-    questions[20].question = "What is the command to change directory?";
-    questions[20].answer = "cd";
-    questions[21].question = "What command is used to list directory contents?";
-    questions[21].answer = "ls";
-    questions[22].question = "What is the command to display system information?";
-    questions[22].answer = "uname";
-    questions[23].question = "What is the command to create a new empty file?";
-    questions[23].answer = "touch";
-    questions[24].question = "What command is used to find files by name?";
-    questions[24].answer = "find";
-    questions[25].question = "What is the command to delete a directory and its contents?";
-    questions[25].answer = "rm";
 }
 
 // Function to swap two questions in the array
@@ -107,12 +87,12 @@ int main() {
     if (correct_answers == NUM_QUESTIONS) {
         printf("Please enter the keyword to proceed: ");
         fgets(input, sizeof(input), stdin);
-        input[strcspn(input, "\n")] = 0; 
+        input[strcspn(input, "\n")] = 0; // remove newline character
         if (strcmp(input, "neo_your_key_is_reality") == 0) {
             printf("Congratulations Neo! You have proven your knowledge.\n");
             printf("The truth is within your reach. Take your flag: {{flag}}\n");
         } else {
-            printf("Incorrect keyword. Access denied. Repeat(\n");
+            printf("Incorrect keyword. Access denied. Repeat\n");
         }
     } else {
         printf("You did not answer all questions correctly. Access denied.\n");

@@ -45,26 +45,26 @@ void initializeQuestions(struct Question questions[]) {
     questions[14].answer = "find";
     questions[15].question = "How do you redirect output from a command to a file in Linux?";
     questions[15].answer = ">";
-    questions[16].question = "What command is used to copy files in Linux?";
-    questions[16].answer = "cp";
-    questions[17].question = "What is the default shell in most Linux distributions?";
-    questions[17].answer = "bash";
-    questions[18].question = "What does GUI stand for in the context of computing?";
-    questions[18].answer = "graphical";
-    questions[19].question = "What is the command to display the manual page of a command?";
-    questions[19].answer = "man";
-    questions[20].question = "What is the command to change directory?";
-    questions[20].answer = "cd";
-    questions[21].question = "What command is used to list directory contents?";
-    questions[21].answer = "ls";
-    questions[22].question = "What is the command to display system information?";
-    questions[22].answer = "uname";
-    questions[23].question = "What is the command to create a new empty file?";
-    questions[23].answer = "touch";
-    questions[24].question = "What command is used to find files by name?";
-    questions[24].answer = "find";
-    questions[25].question = "What is the command to delete a directory and its contents?";
-    questions[25].answer = "rm";
+    questions[0].question = "What command is used to copy files in Linux?";
+    questions[0].answer = "cp";
+    questions[1].question = "What is the default shell in most Linux distributions?";
+    questions[1].answer = "bash";
+    questions[2].question = "What does GUI stand for in the context of computing?";
+    questions[2].answer = "graphical";
+    questions[3].question = "What is the command to display the manual page of a command?";
+    questions[3].answer = "man";
+    questions[4].question = "What is the command to change directory?";
+    questions[4].answer = "cd";
+    questions[5].question = "What command is used to list directory contents?";
+    questions[5].answer = "ls";
+    questions[6].question = "What is the command to display system information?";
+    questions[6].answer = "uname";
+    questions[7].question = "What is the command to create a new empty file?";
+    questions[7].answer = "touch";
+    questions[8].question = "What command is used to find files by name?";
+    questions[8].answer = "find";
+    questions[9].question = "What is the command to delete a directory and its contents?";
+    questions[9].answer = "rm";
 }
 
 // Function to swap two questions in the array
